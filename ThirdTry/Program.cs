@@ -98,7 +98,8 @@ namespace DzFiel
                 }
             }
 
-            Console.WriteLine("8*.");
+            Console.WriteLine("8*. Программа должна запросить у пользователя 2 числа, после чего вывести" +
+                " в консоль их сумму, разность, произведение, частное.");
             Console.WriteLine("");
 
             float thirdNum;
