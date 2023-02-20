@@ -83,7 +83,7 @@ namespace DzFiel
             while (true)
             {
 
-                Console.WriteLine("ВНИМАНИЕ! \n Введите любой текст в консоль:");
+                Console.WriteLine("ВНИМАНИЕ! \nВведите любой текст в консоль:");
                 y = Console.ReadLine(); //Не приходит к правде продолжая запрашивать введения слова
 
                 try
