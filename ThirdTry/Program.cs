@@ -70,7 +70,7 @@ namespace DzFiel
                 }
                 catch (Exception)
                 {
-                    Console.WriteLine("Не является числом. \n Введите любое число в консоль:");
+                    Console.WriteLine("Не является числом. \nВведите любое число в консоль:");
                 }
             }
 
@@ -83,7 +83,7 @@ namespace DzFiel
             while (true)
             {
 
-                Console.WriteLine("ВНИМАНИЕ! \n Введите любой текст в консоль:");
+                Console.WriteLine("ВНИМАНИЕ! \nВведите любой текст в консоль:");
                 y = Console.ReadLine(); //Не приходит к правде продолжая запрашивать введения слова
 
                 try
@@ -114,6 +114,20 @@ namespace DzFiel
                 $"{thirdNum} - {fourthNum} = {thirdNum - fourthNum} \n" +
                 $"{thirdNum} / {fourthNum} = {thirdNum / fourthNum} \n" +
                 $"{thirdNum} * {fourthNum} = {thirdNum * fourthNum}");
+
+            Console.WriteLine("9*");
+
+            string firstText;
+            string secondText;
+
+            Console.Write("ВНИМАНИЕ! \nВведите первое слово: ");
+            firstText = Console.ReadLine();
+            Console.Write("Введите второе слово: ");
+            secondText = Console.ReadLine();
+
+            Console.WriteLine($"{firstText} {secondText}");
+
+            Console.WriteLine(firstText + " " + secondText);
         }
     }
 }
