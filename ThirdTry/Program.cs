@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Threading;
 
 namespace DzFiel
 {
@@ -11,6 +6,7 @@ namespace DzFiel
     {
         static void Main(string[] args)
         {
+            /*
             Console.WriteLine("1. Программа должна вывести в консоль число 21.");
             Console.WriteLine();
             Console.WriteLine(21);
@@ -107,7 +103,7 @@ namespace DzFiel
 
             Console.Write("ВНИМАНИЕ! \nВведите первое число: ");
             thirdNum = Convert.ToSingle(Console.ReadLine());
-            Console.WriteLine("Введите второе число:");
+            Console.Write("Введите второе число:");
             fourthNum = Convert.ToSingle(Console.ReadLine());
 
             Console.WriteLine($"{thirdNum} + {fourthNum} = {thirdNum + fourthNum} \n" +
@@ -128,6 +124,66 @@ namespace DzFiel
             Console.WriteLine($"{firstText} {secondText}");
 
             Console.WriteLine(firstText + " " + secondText);
+            
+             */
+            /*
+            Console.WriteLine("10.");
+
+            float fifthNum;
+            float sixthNum;
+
+            Console.Write("\nВНИМАНИЕ!\nВведите первое число: ");
+            fifthNum = Convert.ToSingle(Console.ReadLine());
+
+            Console.Write("\nВНИМАНИЕ!\nВведите второе число: ");
+            sixthNum = Convert.ToSingle(Console.ReadLine());
+
+            if (fifthNum == sixthNum)
+            {
+                Console.WriteLine($"\n{fifthNum} = {sixthNum}");
+            }
+            else if (fifthNum > sixthNum)
+            {
+                Console.WriteLine($"\n{fifthNum} > {sixthNum}");
+            }
+            else  
+            {
+                Console.WriteLine($"\n{fifthNum} < {sixthNum}");
+            }
+            //Поймать ошибку (буквыБ точки. пробелы )
+            */
+
+            Console.WriteLine("11");
+
+            float seventhNum;
+            float eightNum;
+
+            Console.Write("\nВНИМАНИЕ!\nВведите первое число:");
+            seventhNum = Convert.ToSingle(Console.ReadLine());
+            Console.Write("\nВНИМАНИЕ!\nВведите второе число:");
+            eightNum = Convert.ToSingle(Console.ReadLine());
+
+            while (seventhNum > 0)
+            {
+                Console.WriteLine($"{seventhNum} - {eightNum} = {seventhNum - eightNum}");
+                seventhNum = seventhNum - eightNum;
+            }
+
+            if (seventhNum == 1000 && eightNum == 7)
+            {
+                Console.Beep(500, 200);
+                Console.WriteLine("Le");
+                Console.Beep(500, 220);
+                Console.WriteLine("Le");
+                Console.Beep(500, 240);
+                Console.WriteLine("Let");
+                Console.Beep(500, 300);
+                Console.WriteLine("Me DIE");
+                Console.Beep(400, 700);
+                Console.Beep(500, 740);
+            }
+
+
         }
     }
 }
