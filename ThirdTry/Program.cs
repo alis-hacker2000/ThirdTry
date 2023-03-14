@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Threading;
 
 namespace DzFiel
 {
@@ -131,7 +126,7 @@ namespace DzFiel
             Console.WriteLine(firstText + " " + secondText);
             
              */
-
+            /*
             Console.WriteLine("10.");
 
             float fifthNum;
@@ -156,6 +151,7 @@ namespace DzFiel
                 Console.WriteLine($"\n{fifthNum} < {sixthNum}");
             }
             //Поймать ошибку (буквыБ точки. пробелы )
+            */
 
             Console.WriteLine("11");
 
@@ -164,9 +160,29 @@ namespace DzFiel
 
             Console.Write("\nВНИМАНИЕ!\nВведите первое число:");
             seventhNum = Convert.ToSingle(Console.ReadLine());
+            Console.Write("\nВНИМАНИЕ!\nВведите второе число:");
             eightNum = Convert.ToSingle(Console.ReadLine());
 
-            Console.WriteLine();
+            while (seventhNum > 0)
+            {
+                Console.WriteLine($"{seventhNum} - {eightNum} = {seventhNum - eightNum}");
+                seventhNum = seventhNum - eightNum;
+            }
+
+            if (seventhNum == 1000 && eightNum == 7)
+            {
+                Console.Beep(500, 200);
+                Console.WriteLine("Le");
+                Console.Beep(500, 220);
+                Console.WriteLine("Le");
+                Console.Beep(500, 240);
+                Console.WriteLine("Let");
+                Console.Beep(500, 300);
+                Console.WriteLine("Me DIE");
+                Console.Beep(400, 700);
+                Console.Beep(500, 740);
+            }
+
 
         }
     }
