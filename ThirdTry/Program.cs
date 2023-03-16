@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Threading;
 namespace DzFiel
 {
     internal class Program
@@ -152,7 +152,7 @@ namespace DzFiel
             }
             //Поймать ошибку (буквыБ точки. пробелы )
             */
-
+            
             Console.WriteLine("11");
 
             float seventhNum;
@@ -163,25 +163,31 @@ namespace DzFiel
             Console.Write("\nВНИМАНИЕ!\nВведите второе число:");
             eightNum = Convert.ToSingle(Console.ReadLine());
 
-            while (seventhNum > 0)
+            if (seventhNum == 1000 && eightNum == 7) 
             {
-                Console.WriteLine($"{seventhNum} - {eightNum} = {seventhNum - eightNum}");
-                seventhNum = seventhNum - eightNum;
-            }
 
-            if (seventhNum == 1000 && eightNum == 7)
-            {
-                Console.Beep(500, 200);
+                Console.Beep(500, 180);
                 Console.WriteLine("Le");
-                Console.Beep(500, 220);
+                Console.Beep(500, 210);
                 Console.WriteLine("Le");
                 Console.Beep(500, 240);
                 Console.WriteLine("Let");
                 Console.Beep(500, 300);
                 Console.WriteLine("Me DIE");
-                Console.Beep(400, 700);
-                Console.Beep(500, 740);
+                Console.Beep(500, 600);
+                Console.Beep(490, 1000);
+
             }
+
+
+            while (seventhNum > 0)
+            {
+                Console.WriteLine($"{seventhNum} - {eightNum} = {seventhNum - eightNum}");
+                seventhNum = seventhNum - eightNum;
+                Thread.Sleep(100);
+            }
+            
+            
 
 
         }
