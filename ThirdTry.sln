@@ -5,8 +5,6 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdTry", "ThirdTry\ThirdTry.csproj", "{E0E93EC6-AD55-4373-9F46-24373D85C732}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cal'culyator", "Cal'culyator\Cal'culyator.csproj", "{4F24C2E2-37B1-4737-B9AE-6DEE1A2842AA}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{E0E93EC6-AD55-4373-9F46-24373D85C732}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0E93EC6-AD55-4373-9F46-24373D85C732}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0E93EC6-AD55-4373-9F46-24373D85C732}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4F24C2E2-37B1-4737-B9AE-6DEE1A2842AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F24C2E2-37B1-4737-B9AE-6DEE1A2842AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F24C2E2-37B1-4737-B9AE-6DEE1A2842AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F24C2E2-37B1-4737-B9AE-6DEE1A2842AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
